@@ -23,3 +23,17 @@
   color:#EAF4FF ;
   cursor:pointer;
 }
+.answers-display {
+  display:flex;
+}
+.answers-display ul div {
+  text-align:center;
+  padding:2px;
+  border:none;
+  margin-bottom:5px;
+  border-radius:10%;
+}
+.answers-display ul p {
+  font-weight: 600;
+  font-family: sans-serif;
+}
