@@ -9,6 +9,9 @@ export default function App() {
   const [answersArray, setAnswersArray] = useState([]);
 
 
+  // const handleReset = () => {
+  //   setFinishedTest(!finishedTest);
+  // }
   const handleClick = (val) => {
     setAnswersArray((array) => {
       return [
@@ -100,6 +103,7 @@ export default function App() {
                 }
               </ul>
             </div>
+            {/* <button onClick={handleReset}>Reset</button> */}
           </>
         )
       }

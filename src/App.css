@@ -9,6 +9,9 @@
   gap:30px;
   background-color: #D1FDFF;
 }
+.question {
+  font-size: 30px;
+}
 .answers {
   display:flex;
   flex-direction:column;
